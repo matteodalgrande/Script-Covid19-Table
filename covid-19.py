@@ -52,7 +52,7 @@ def downloadPage(month,day,zona):
         filehtml = open("covid_nazionale.html","w+")
 
         #HTML
-        filehtml.write('<!doctype html><html lang="it"><head><link href="../css/covid2.css" rel="stylesheet" type="text/css"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><title>EscapeIT &ndash; COVID-19</title></head>')
+        filehtml.write('<!doctype html><html lang="it"><head><link href="../css/covid-19/covid2.css" rel="stylesheet" type="text/css"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><title>EscapeIT &ndash; COVID-19</title></head>')
 
         with open("./datoTEMPORANEO.csv", newline="", encoding="UTF-8") as filecsv:
             lettore = csv.reader(filecsv, delimiter=",")
